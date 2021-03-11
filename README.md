@@ -58,6 +58,7 @@ Things you may want to cover:
     "total_paid_amount_accurate":"4500.00"
   }
 }
+```
 
 # Service Payload Format 2
 
@@ -83,3 +84,4 @@ Things you may want to cover:
   "security_price": "500",
   "total_price": "4500.00"
 }
+```
