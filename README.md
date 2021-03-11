@@ -72,11 +72,11 @@ Things you may want to cover:
   "infants": 0,
   "status": "accepted",
   "guest": {
-  "id": 1,
-  "first_name": "Wayne",
-  "last_name": "Woodbridge",
-  "phone": "639123456789",
-  "email": "wayne_woodbridge@bnb.com"
+    "id": 1,
+    "first_name": "Wayne",
+    "last_name": "Woodbridge",
+    "phone": "639123456789",
+    "email": "wayne_woodbridge@bnb.com"
   },
   "currency": "AUD",
   "payout_price": "3800.00",
