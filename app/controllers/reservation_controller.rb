@@ -1,5 +1,3 @@
-require 'json'
-
 class ReservationController < ApplicationController
   def index; end
 
