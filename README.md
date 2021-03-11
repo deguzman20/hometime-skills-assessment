@@ -1,4 +1,4 @@
-# hometime-skills-assessment
+# Hometime Skills Assessment
 
 # Instruction
 
