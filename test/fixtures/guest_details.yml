@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  localized_description: MyString
+  number_of_adults: 1
+  number_of_children: 1
+  number_of_infants: 1
+
+two:
+  localized_description: MyString
+  number_of_adults: 1
+  number_of_children: 1
+  number_of_infants: 1

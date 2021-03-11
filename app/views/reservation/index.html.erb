@@ -1,0 +1,42 @@
+<br/>
+<div class="container">
+  <form>
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <div class="row">
+          <h2 style="color: #675f67;">Service Payload</h2>
+        </div>    
+        <div class="form-group">
+          <textarea class="form-control" id="service-payload" placeholder="" rows="15"></textarea>
+        </div>
+        <br/>
+        <button class="btn btn-primary btn-block" id="process" style="background-color: #07635a;">
+          Process
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+  $(function(){
+    
+    $("#process").click(function(e){
+      e.preventDefault();
+      var service_payload = $("#service-payload").val();
+
+      $.ajax({
+        url: "/process",
+        type: "GET",
+        dataType: 'JSON',
+        data: JSON.parse(service_payload),
+        success: function(data){
+          if(data === "Process successfuly"){
+            alert(data);
+          }
+        }
+      });
+
+    });
+  })
+</script>
