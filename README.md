@@ -30,7 +30,7 @@ Things you may want to cover:
 
 # Service Payload Format 1
 
-``` yaml
+```
 {
   "reservation":{
     "start_date":"2020-03-12",
@@ -61,7 +61,7 @@ Things you may want to cover:
 
 # Service Payload Format 2
 
-``` yaml
+```
 {
 "start_date": "2020-03-12",
 "end_date": "2020-03-16",
