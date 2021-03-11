@@ -24,9 +24,13 @@ Things you may want to cover:
 * ...
 # hometime-skills-assessment
 
+# Instruction
+
+* Goto to this url page http://localhost:3000/ and select API payload below and paste the selected API payload in the textarea and press the process button to save to the database
 
 # Service Payload Format 1
 
+``` yaml
 {
   "reservation":{
     "start_date":"2020-03-12",
@@ -53,10 +57,11 @@ Things you may want to cover:
     "status_type":"accepted",
     "total_paid_amount_accurate":"4500.00"
   }
-}
+}```
 
 # Service Payload Format 2
 
+``` yaml
 {
 "start_date": "2020-03-12",
 "end_date": "2020-03-16",
@@ -77,4 +82,4 @@ Things you may want to cover:
 "payout_price": "3800.00",
 "security_price": "500",
 "total_price": "4500.00"
-}
+}```
