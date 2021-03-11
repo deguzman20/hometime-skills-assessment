@@ -2,7 +2,7 @@
 
 # Instruction
 
-* Goto to this url page http://localhost:3000/ and select API payload below and paste the selected API payload in the textarea and press the process button to save payload in the database
+* Run this program and goto to this url page http://localhost:3000/ and select API payload below and paste the selected API payload in the textarea and press the process button to save payload in the database
 
 # Service Payload Format 1
 
