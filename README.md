@@ -26,7 +26,7 @@ Things you may want to cover:
 
 # Instruction
 
-* Goto to this url page http://localhost:3000/ and select API payload below and paste the selected API payload in the textarea and press the process button to save to the database
+* Goto to this url page http://localhost:3000/ and select API payload below and paste the selected API payload in the textarea and press the process button to save payload in the database
 
 # Service Payload Format 1
 
